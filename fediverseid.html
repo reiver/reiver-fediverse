@@ -35,11 +35,114 @@
      at sign
        ↓
        @joeblow@example.com ← Fediverse ID
+
         joeblow@example.com ← e-mail address
        ↑
   no at sign
 
 </pre>
 </figure>
+	</section>
+	<section>
+		<h2>Usage</h2>
+		<p>
+			<strong>Fediverse IDs</strong> appear in posts on the <strong>Fediverse</strong>, and are typed (something with the help of some form of autocomplete) by users.
+		</p>
+	</section>
+	<section>
+		<h2>acct URI</h2>
+		<p>
+			Part of the process of <strong>resolving</strong> a <strong>Fediverse ID</strong> transfomrs a <strong>Fediverse ID</strong> into an <ziba-link>acct URI</ziba-link>.
+			(And then using that <ziba-link>acct URI</ziba-link> version of the <strong>Fediverse ID</strong> to make a request to <ziba-link transform="lowercase">WebFinger</ziba-link>.)
+		</p>
+		<p>
+			Here is an example:
+		</p>
+<pre>
+
+     at sign
+       ↓
+       @joeblow@example.com ← Fediverse ID
+
+   acct:joeblow@example.com ← acct URI
+       ↑
+  no at sign
+
+</pre>
+	</section>
+	<section>
+		<h2>Fediverse ID Syntax</h2>
+		<p>
+			The final say for what is and is not a valid <strong>Fediverse IDs</strong> are the many implementations of <ziba-link transform="lowercase">WebFinger</ziba-link> in-the-wild.
+			(Which could be different from each other.)
+		</p>
+		<p>
+			But, having said that, what we can infer what an implementation that uses <strong>Fediverse IDs</strong> should probably support at minimum.
+			I.e., an implmentation consider more than just this as a valid <strong>Fediverse ID</strong> — but all these should work.
+		</p>
+		<p>
+			Because <strong>Fediverse IDs</strong> are, from a technical point-of-view, closely tied to <ziba-link>acct URI</ziba-link> (because of <ziba-link transform="lowercase">WebFinger</ziba-link>) it can affect what is a valid <strong>Fediverse ID</strong>.
+		</p>
+		<p>
+			Inferring from IETF RFC-7565 (The 'acct' URI Scheme), the syntax of a <strong>Fediverse ID</strong> is:
+		</p>
+<pre>
+fediverseID = "@" actor "@" host
+</pre>
+		<p>
+			Where “actor” is defined as:
+		</p>
+<pre>
+actor       = unreserved / sub-delims 0*( unreserved / pct-encoded / sub-delims )
+
+unreserved  = ALPHA / DIGIT / "-" / "." / "_" / "~"
+
+sub-delims  = "!" / "$" / "&" / "'" / "(" / ")" / "*" / "+" / "," / ";" / "="
+
+pct-encoded = "%" HEXDIG HEXDIG
+
+ALPHA       =  %x41-5A / %x61-7A   ; A-Z / a-z
+
+DIGIT       =  %x30-39             ; 0-9
+
+HEXDIG      =  DIGIT / "A" / "B" / "C" / "D" / "E" / "F"
+</pre>
+		<p>
+			(Again note that an implementation <em>could</em> support more characters for “actor” than what is given by this definition.)
+		</p>
+		<p>
+			And “host” is defined as
+		</p>
+<pre>
+host        = IP-literal / IPv4address / reg-name
+
+IP-literal  = "[" ( IPv6address / IPvFuture  ) "]"
+
+IPv6address =                            6( h16 ":" ) ls32
+            /                       "::" 5( h16 ":" ) ls32
+            / [               h16 ] "::" 4( h16 ":" ) ls32
+            / [ *1( h16 ":" ) h16 ] "::" 3( h16 ":" ) ls32
+            / [ *2( h16 ":" ) h16 ] "::" 2( h16 ":" ) ls32
+            / [ *3( h16 ":" ) h16 ] "::"    h16 ":"   ls32
+            / [ *4( h16 ":" ) h16 ] "::"              ls32
+            / [ *5( h16 ":" ) h16 ] "::"              h16
+            / [ *6( h16 ":" ) h16 ] "::"
+
+h16         = 1*4HEXDIG
+
+ls32        = ( h16 ":" h16 ) / IPv4address
+
+IPvFuture   = "v" 1*HEXDIG "." 1*( unreserved / sub-delims / ":" )
+
+IPv4address = dec-octet "." dec-octet "." dec-octet "." dec-octet
+
+dec-octet   = DIGIT                 ; 0-9
+            / %x31-39 DIGIT         ; 10-99
+            / "1" 2DIGIT            ; 100-199
+            / "2" %x30-34 DIGIT     ; 200-249
+            / "25" %x30-35          ; 250-255
+
+reg-name    = *( unreserved / pct-encoded / sub-delims )
+</pre>
 	</section>
 </article>
