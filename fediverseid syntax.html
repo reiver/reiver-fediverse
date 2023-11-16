@@ -1,0 +1,131 @@
+<article>
+	<h1>Fediverse ID (Fediverse)</h1>
+	<section>
+		<address class="h-card">
+			by
+			<a rel="author" class="u-url" href="http://changelog.ca/"><span class="p-given-name">Charles</span> <span class="p-additional-name">Iliya</span> <span class="p-family-name">Krempeaux</span></a>
+		</address>
+	</section>
+	<section>
+		<p>
+			The final say for what is and is not a valid <ziba-link transform="lowerllamacase">Fediverse ID</ziba-link> are the many implementations of <ziba-link transform="lowercase">WebFinger</ziba-link> in-the-wild in all the different <ziba-link transform="lowercase">Fediverse software</ziba-link> out there.
+			(Which could be different from each other.)
+		</p>
+		<p>
+			Because, from a technical point-of-view, a <ziba-link transform="lowerllamacase">Fediverse ID</ziba-link> is turned into an <ziba-link>acct URI</ziba-link> and then resolved with <ziba-link transform="lowercase">WebFinger</ziba-link>.
+		</p>
+		<p>
+			Also, there currently is no canonical syntax for a <ziba-link transform="lowerllamacase">Fediverse ID</ziba-link>.
+			Currently, the syntax of a <ziba-link transform="lowerllamacase">Fediverse ID</ziba-link> is whatever each implementation supports.
+			(Which again could be different from each other.)
+		</p>
+		<p>
+			But, having said that, we can infer a <em>minimum syntax</em> for what should be considered a valid<ziba-link transform="lowerllamacase">Fediverse ID</ziba-link>.
+			I.e., the syntax that any implmentation for <ziba-link transform="lowerllamacase">Fediverse ID</ziba-link>s <em>should</em> support.
+			But, to say it explicitly, an implemention for <ziba-link transform="lowerllamacase">Fediverse ID</ziba-link>s <em>could</em> support more than just what is given by this syntax.
+		</p>
+	<section>
+		<h2>acct URI</h2>
+		<p>
+			Part of the process of <strong>resolving</strong> a <ziba-link transform="lowerllamacase">Fediverse ID</ziba-link> transfomrs a <ziba-link transform="lowerllamacase">Fediverse ID</ziba-link> into an <ziba-link>acct URI</ziba-link>.
+			(And then using that <ziba-link>acct URI</ziba-link> version of the <ziba-link transform="lowerllamacase">Fediverse ID</ziba-link> makes a request to <ziba-link transform="lowercase">WebFinger</ziba-link>.)
+		</p>
+		<p>
+			Here is an example of transforming a <ziba-link transform="lowerllamacase">Fediverse ID</ziba-link> into an <ziba-link>acct URI</ziba-link>:
+		</p>
+<pre>
+
+     at sign
+       ↓
+       @joeblow@example.com ← Fediverse ID
+
+   acct:joeblow@example.com ← acct URI
+       ↑
+  no at sign
+
+</pre>
+		<p>
+			A client would then make a request to:
+		</p>
+<pre>
+https://example.com/.well-known/host-meta
+</pre>
+		<p>
+			To discover what the (template) URL for <ziba-link transform="lowercase">WebFinger</ziba-link> is.
+			And then, for example, if it is at:
+		</p>
+<pre>
+https://example.com/.well-known/webfinger?resource={uri}
+</pre>
+		<p>
+			Then make a request to:
+		</p>
+<pre>
+https://example.com/.well-known/webfinger?resource=acct:joeblow@example.com
+</pre>
+	</section>
+	<section>
+		<h2>Fediverse ID Syntax</h2>
+		<p>
+			Inferring from IETF RFC-7565 (The 'acct' URI Scheme) and referenced IEFC RFCs, the syntax of a <ziba-link transform="lowerllamacase">Fediverse ID</ziba-link> is:
+		</p>
+<pre>
+fediverseID = "@" actor "@" host
+</pre>
+		<p>
+			Where “actor” is defined as:
+		</p>
+<pre>
+actor       = unreserved / sub-delims 0*( unreserved / pct-encoded / sub-delims )
+
+unreserved  = ALPHA / DIGIT / "-" / "." / "_" / "~"
+
+sub-delims  = "!" / "$" / "&" / "'" / "(" / ")" / "*" / "+" / "," / ";" / "="
+
+pct-encoded = "%" HEXDIG HEXDIG
+
+ALPHA       =  %x41-5A / %x61-7A   ; A-Z / a-z
+
+DIGIT       =  %x30-39             ; 0-9
+
+HEXDIG      =  DIGIT / "A" / "B" / "C" / "D" / "E" / "F"
+</pre>
+		<p>
+			(Again note that an implementation <em>could</em> support more characters for “actor” than what is given by this definition.)
+		</p>
+		<p>
+			And “host” is defined as
+		</p>
+<pre>
+host        = IP-literal / IPv4address / reg-name
+
+IP-literal  = "[" ( IPv6address / IPvFuture  ) "]"
+
+IPv6address =                            6( h16 ":" ) ls32
+            /                       "::" 5( h16 ":" ) ls32
+            / [               h16 ] "::" 4( h16 ":" ) ls32
+            / [ *1( h16 ":" ) h16 ] "::" 3( h16 ":" ) ls32
+            / [ *2( h16 ":" ) h16 ] "::" 2( h16 ":" ) ls32
+            / [ *3( h16 ":" ) h16 ] "::"    h16 ":"   ls32
+            / [ *4( h16 ":" ) h16 ] "::"              ls32
+            / [ *5( h16 ":" ) h16 ] "::"              h16
+            / [ *6( h16 ":" ) h16 ] "::"
+
+h16         = 1*4HEXDIG
+
+ls32        = ( h16 ":" h16 ) / IPv4address
+
+IPvFuture   = "v" 1*HEXDIG "." 1*( unreserved / sub-delims / ":" )
+
+IPv4address = dec-octet "." dec-octet "." dec-octet "." dec-octet
+
+dec-octet   = DIGIT                 ; 0-9
+            / %x31-39 DIGIT         ; 10-99
+            / "1" 2DIGIT            ; 100-199
+            / "2" %x30-34 DIGIT     ; 200-249
+            / "25" %x30-35          ; 250-255
+
+reg-name    = *( unreserved / pct-encoded / sub-delims )
+</pre>
+	</section>
+</article>
