@@ -1,0 +1,61 @@
+<article>
+	<h1>acct URI (Fediverse)</h1>
+	<section>
+		<address class="h-card">
+			by
+			<a rel="author" class="u-url" href="http://changelog.ca/"><span class="p-given-name">Charles</span> <span class="p-additional-name">Iliya</span> <span class="p-family-name">Krempeaux</span></a>
+		</address>
+	</section>
+	<section>
+		<p>
+			An <strong>acct URI</strong> looks like this:
+		</p>
+<pre>
+acct:joeblow@example.com
+</pre>
+		<p>
+			Typically an <strong>acct URI</strong> is used to turn an <strong>e-mail address</strong> or <ziba-link name="id">Fediverse ID</ziba-link> into a URL / URI.
+			(There are reasons why one might want to turn a pointer or identifier that isn' a URL / URI into a URL / URI.)
+		</p>
+		<p>
+			For example, this <ziba-link name="id">Fediverse ID</ziba-link>:
+		</p>
+<pre>
+@reiver@changelog.ca
+</pre>
+		<p>
+			Gets turned into this <strong>acct URI</strong>:
+		</p>
+<pre>
+acct:reiver@changelog.ca
+</pre>
+	</section>
+	<section>
+		<h2>Fediverse Users</h2>
+		<p>
+			Most users of the <strong>Fediverse</strong> aren't aware of <strong>acct URI</strong>s.
+			And really, they don't have to be aware of them!
+		</p>
+	</section>
+	<section>
+		<h2>Fediverse Programmers</h2>
+		<p>
+			But behind the scenes, <strong>acct URI</strong>s are used by <ziba-link name="softwware">Fediverse software</ziba-link>.
+		</p>
+		<p>
+			Behind the scenes, a <ziba-link name="id">Fediverse ID</ziba-link> is turned into a <strong>acct URI</strong>, and then that <strong>acct URI</strong> is used to in a request to <ziba-link transform="lowercase">WebFinger</ziba-link> .
+		</p>
+		<p>
+			If you are a <strong>programmer</strong> / <strong>software engineer</strong> / <strong>software developer</strong> / etc, then you may need to be aware of <strong>acct URI</strong>s, and have some level of understanding of them.
+		</p>
+	</section>
+	<section>
+		<h2>See Also</h2>
+		<p>
+			For more information on <strong>acct URI</strong> see:
+		</p>
+		<ul>
+			<li>IETF RFC-7565</li>
+		</ul>
+	</section>
+</article>
