@@ -25,7 +25,7 @@
 			And again could even change over time!
 		</p>
 		<p>
-			The reason being because, from a technical point-of-view, a <strong>Fediverse ID</strong> is turned into an <ziba-link dir=".." transform="lowercase">acct URI</ziba-link> and then resolved with <ziba-link dir=".." transform="lowercase">WebFinger</ziba-link>.
+			The reason being because, from a technical point-of-view, a <strong>Fediverse ID</strong> is turned into an <ziba-link dir=".." transform="lowerslugcase">acct URI</ziba-link> and then resolved with <ziba-link dir=".." transform="lowercase">WebFinger</ziba-link>.
 		</p>
 		<p>
 			But, having said that, we can infer a <em>minimum syntax</em> and a <em>maximum syntax</em> for what should be considered a valid <strong>Fediverse ID</strong>.
@@ -39,7 +39,7 @@
 	<section>
 		<h2>Maximal Fediverse ID Syntax</h2>
 		<p>
-			An <ziba-link dir=".." transform="lowercase">acct URI</ziba-link> has some constraints according to the IETF RFC-7565 (The 'acct' URI Scheme) specification.
+			An <ziba-link dir=".." transform="lowerslugcase">acct URI</ziba-link> has some constraints according to the IETF RFC-7565 (The 'acct' URI Scheme) specification.
 			But — software, such as <ziba-link dir=".." name="software">Fediverse software</ziba-link>, don't have to implement those constraints.
 			I.e., they can accept more than just what IETF RFC-7565 (The 'acct' URI Scheme) specifies.
 		</p>
@@ -140,11 +140,11 @@ host        = NOTATSIGN *NOTATSIGN      ; one or more characters that are not an
 	<section>
 		<h2>acct URI</h2>
 		<p>
-			Part of the process of <strong>resolving</strong> a <strong>Fediverse ID</strong> transfomrs a <strong>Fediverse ID</strong> into an <ziba-link transform="lowercase">acct URI</ziba-link>.
-			(And then using that <ziba-link transform="lowercase">acct URI</ziba-link> version of the <strong>Fediverse ID</strong> makes a request to <ziba-link dir=".." transform="lowercase">WebFinger</ziba-link>.)
+			Part of the process of <strong>resolving</strong> a <strong>Fediverse ID</strong> transfomrs a <strong>Fediverse ID</strong> into an <ziba-link dir=".." transform="lowercase">acct URI</ziba-link>.
+			(And then using that <ziba-link dir=".." transform="lowercase">acct URI</ziba-link> version of the <strong>Fediverse ID</strong> makes a request to <ziba-link dir=".." transform="lowercase">WebFinger</ziba-link>.)
 		</p>
 		<p>
-			Here is an example of transforming a <strong>Fediverse ID</strong> into an <ziba-link transform="lowercase">acct URI</ziba-link>:
+			Here is an example of transforming a <strong>Fediverse ID</strong> into an <ziba-link dir=".." transform="lowercase">acct URI</ziba-link>:
 		</p>
 <pre>
 
