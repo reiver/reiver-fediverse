@@ -37,6 +37,77 @@ acct:reiver@changelog.ca
 </pre>
 	</section>
 	<section>
+		<h2>Why acct URIs</h1>
+		<p>
+			The TL;DR of <em>why acct URIs‽</em> is — 
+		</p>
+		<ul>
+			<li>
+				<p>
+					… because people seem to be comfortable with something that looks more like an <strong>e-mail address</strong> or as <strong>username</strong> as an <strong>identifier</strong> but the technology only understands URLs and URIs;
+					so you still have to turn things that look like <strong>e-mail address</strong> and <strong>usernames</strong> into URLs and URIs;
+					which is what <strong>acct URI</strong> is;
+					and “no”, mailto URI won't work;
+				</p>
+				<p>
+					… because a new URI scheme makes it easy to identify that it should be used with <ziba-link transform="lowercase">WebFinger</ziba-link> (rather than being able to do something else with it).
+				</p>
+			</li>
+		</ul>
+		<p>
+			There are many conceptual places where some kind of an <strong>identifier</strong> is a core part of it.
+		</p>
+		<p>
+			For example, on any social protocol I am aware of, there is some type of notion of an <strong>identifier</strong>.
+		</p>
+		<p>
+			BBS echo-mail has them.
+			BBS net-mail has them.
+			Internet e-mail has them.
+			Internet finger-protocol has them.
+			Internet gemini-protocol has them.
+			(Multi-User) Linux &amp; Unix operating systems have them.
+			Twitter has them.
+			Etc.
+		</p>
+		<p>
+			The <strong>identifier</strong> enables you to send messages, to share photos &amp; images, to control data, etc.
+		</p>
+		<p>
+			With a single centralized system, dealing with <strong>identifiers</strong> is comparatively more straight-forward.
+			But when dealing with a distributed, decentralized, or federated system, things can get more complex — for example, how do you point to and interact with someone or something from a different node on the network?
+			Etc.
+		</p>
+		<p>
+			Experience (with OpenID and other systems) seems to suggest that (at least currently) most people are more comfortable with using something that looks more like an <strong>e-mail address</strong> or as <strong>username</strong> as an <strong>identifier</strong> rather than a URL or a URI.
+			For example — 
+		</p>
+		<ul>
+			<li>joeblow@example.com</li>
+			<li>jandoe@something.example</li>
+			<li>actor@host</li>
+		</ul>
+		<p>
+			<ziba-link name="id">Fediverse ID</ziba-link>s look very similar to e-mail addresses.
+			They just have a U+0040 at-sign ("@") at the beginning of them:
+		</p>
+		<ul>
+			<li>@joeblow@example.com</li>
+			<li>@jandoe@something.example</li>
+			<li>@actor@host</li>
+		</ul>
+		<p>
+			But <ziba-link transform="lowercase">WebFinger</ziba-link> only understand URLs and URIs.
+			So those have to be turned into URLs or URIs.
+			Which, usually, is very straight-forward:
+		</p>
+		<ul>
+			<li>acct:joeblow@example.com</li>
+			<li>acct:jandoe@something.example</li>
+			<li>acct:actor@host</li>
+		</ul>
+	</section>
+	<section>
 		<h2>Fediverse Users</h2>
 		<p>
 			Most users of the <strong>Fediverse</strong> aren't aware of <strong>acct URI</strong>s.
