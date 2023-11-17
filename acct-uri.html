@@ -50,6 +50,58 @@ acct:reiver@changelog.ca
 		</p>
 	</section>
 	<section>
+		<h2>Resolving</h2>
+		<h2>acct URI</h2>
+		<p>
+			Part of the process of <strong>resolving</strong> a <strong>Fediverse ID</strong> transfomrs a <strong>Fediverse ID</strong> into an <ziba-link dir=".." transform="lowercase">acct URI</ziba-link>.
+			(And then using that <ziba-link dir=".." transform="lowercase">acct URI</ziba-link> version of the <strong>Fediverse ID</strong> makes a request to <ziba-link dir=".." transform="lowercase">WebFinger</ziba-link>.)
+		</p>
+		<p>
+			Here is an example of transforming a <strong>Fediverse ID</strong> into an <ziba-link dir=".." transform="lowercase">acct URI</ziba-link>:
+		</p>
+<pre>
+
+     at sign
+       ↓
+       @joeblow@example.com ← Fediverse ID
+
+   acct:joeblow@example.com ← acct URI
+       ↑
+  no at sign
+
+</pre>
+		<p>
+			A client would then make a request to:
+		</p>
+<pre>
+
+https://example.com/.well-known/host-meta
+
+</pre>
+		<p>
+			To discover what the (template) URL for <ziba-link dir=".." transform="lowercase">WebFinger</ziba-link> is.
+			And then, for example, if it is at:
+		</p>
+<pre>
+
+https://example.com/.well-known/webfinger?resource={uri}
+
+</pre>
+		<p>
+			Then make a request to:
+		</p>
+<pre>
+
+https://example.com/.well-known/webfinger?resource=acct:joeblow@example.com
+
+</pre>
+		<p>
+			This <ziba-link dir=".." transform="lowercase">WebFinger</ziba-link> implementation <em>could</em> accept whatever it wants.
+			It doesn't have to restrict itself to what is specified by the IETF RFC-7565 (The 'acct' URI Scheme) specification.
+			BUT —
+		</p>
+	</section>
+	<section>
 		<h2>See Also</h2>
 		<p>
 			For more information on <strong>acct URI</strong> see:
