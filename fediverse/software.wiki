@@ -1,0 +1,105 @@
+wiki/1
+
+§ Fediverse Software
+
+by Charles Iliya Krempeaux
+
+This is a list of most the **Fediverse software** as of 2023.
+
+§§ A
+
+• [[software/akkoma]]
+
+§§ B
+
+• [[software/bookWyrm]]
+
+§§ C
+
+• [[software/calckey]]
+• [[software/castopod]]
+
+§§ D
+
+§§ E
+
+§§ F
+
+• [[software/firefish]]
+• [[software/forgejo]]
+• [[software/friendica]]
+• [[software/funkwhale]]
+
+§§ G
+
+• [[software/gitea]
+• [[software/gnu-social]]
+• [[software/gotosocial]]
+• [[software/greatape]]
+• [[software/guppe]]
+
+§§ H
+
+§§ I
+
+§§ J
+
+§§ K
+
+
+				<li><ziba-link dir="software">kbin</ziba-link></li>
+
+§§ L
+
+				<li><ziba-link dir="software" transform="lowercase">Lemmy</ziba-link></li>
+
+
+§§ M
+
+• [[software/mbin]]
+• [[software/misskey]]
+• [[software/mobilizon]]
+
+§§ N
+
+• [[software/nextcloud]]
+
+§§ O
+
+• [[software/owncast]]
+
+§§ P
+
+
+
+• [[software/peerTube]]
+• [[software/pixelfed]]
+• [[software/pleroma]]
+• [[software/plume]]
+• [[software/postFreely]]
+• [[software/postmarks]]
+
+§§ Q
+
+§§ R
+
+§§ S
+
+• [[software/sharkey]
+• [[software/Socialhome]
+
+§§ T
+
+§§ U
+
+§§ V
+
+§§ W
+
+• [[writefreely]]
+
+§§ X
+
+§§ Y
+
+§§ Z
