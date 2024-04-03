@@ -1,0 +1,50 @@
+wiki/1
+
+§ Eternal November (Fediverse)
+
+by Charles Iliya Krempeaux
+
+§§ Usenet
+
+**Usenet** is an early Internet social-network with origins in the 1980s.
+
+(**Usenet** was actually a copy of parts of an even earlier online social-network on a pre-Internet online system called **BBS**.)
+
+In 1993 **Usenet** experienced what some called — **Eternal September**.
+
+§§ Eternal September
+
+**Usenet**'s **Eternal September** was when — in 1993 a overwhelming number of new users joined **Usenet** within a relatively short period of time and —
+
+These newcomers to **Usenet** changed the social-norms — they changed the culture of **Usenet** against the will of many (maybe most) earlier users of **Usenet**.
+
+While many early **Usenet** users were welcoming to the newcomers — there was social conflict.
+
+They battled —
+
+The people of Usenet's **Eternal September** — the overwhelming number of new users who joined **Usenet** — battled with the earlier users of **Usenet** —
+
+They battled about what the culture & social-norms of **Usenet** would be going forward.
+
+The early users of **Usenet** lost the battle!!!
+
+The social-norms & culture of **Usenet** were permanently changed.
+
+I think something like this happened to the **Fediverse** and [[software/mastodon]] —
+
+§§ Eternal November
+
+Around November, 2022 an overwhelming number of new users have joined the **Fediverse** and [[software/mastodon]] within a relatively short period of time — mostly as part of [[twitter-migration]].
+
+The newcomes to the **Fediverse** & [[software/mastodon]] have largely been welcomed by the earlier users of the Fediverse.
+
+But there is conflict —
+
+Some of the [[twitter-migration]] newcomers are battling with earlier users of the **Fediverse** & [[software/mastodon]] over what the culture & social-norms will be going forward.
+
+I think some of the culture and social-norms of the **Fediverse** & [[software/mastodon]] have already started to change, as a result of this.
+
+How far it will go — only time will tell.
+But —
+
+I think — just like **Usenet** had its **Eternal September** — for better or worse, the **Fediverse** and [[software/mastodon]] are having their own **Eternal November**.
