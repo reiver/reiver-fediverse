@@ -1,0 +1,30 @@
+wiki/1
+
+§ GreatApe (Fediverse)
+
+by Charles Iliya Krempeaux
+
+**GreatApe** is **Fediverse** software is focused on live audio- and video- conversations.
+
+§§ GreatApe Team
+
+**GreatApe** was initially created by:
+
+• [[../person/charles-iliya-krempeaux]] (founder, product, engineering)
+• [[../person/chris-trottier]] (co-founder, marketing)
+• [[../person/massoud-seifi]] (co-founder, engineering)
+
+But the GreatApe team eventually grew to include:
+
+• [[../person/atanaz-ostovar]] (qa)
+• [[../person/benyamin-azarkhazin]] (engineering)
+• [[../person/chet-earl-woodside]] (logo)
+• [[../person/farzaneh-amini]] (ux/ui)
+• [[../person/mehrdad-mirsamie]] (engineering)
+• [[../person/meysam-mousavi]] (engineering)
+• [[../person/muhammad-zaid-ali]] (engineering)
+• [[../person/sepideh-farsi]] (qa)
+
+§§ Software Stack</h2>
+
+**GreatApe** is written in the **Go programming language**.
