@@ -1,0 +1,33 @@
+wiki/1
+
+§ Akkoma (Fediverse)
+
+by Charles Iliya Krempeaux
+
+**Akkoma** is **Fediverse** software focused on **micro-blogging**, that started its life as a fork of [[pleroma]]
+
+Being software for a micro-blogging social-media network, **Akkoma** is similar to:
+
+• [[firefish]],
+• [[friendica]],
+• [[gnu-social]],
+• [[gotosocial]],
+• [[mastodon]],
+• [[misskey]],
+• [[pleroma]],
+• and others.
+
+§§ Name
+
+Akkoma's name is an homage to a character from the anime **Little Witch Academia** — **Atsuko Kagari**.
+
+**Atsuko Kagari**'s nickname is **Akko**.
+Thus the name ‘**Akkoma**’.
+
+The Akkoma logo even includes a witch's hat — again, a reference to **Atsuko Kagari** a.k.a. **Akko**.
+
+The tag-line for Akkoma is also:
+
+― Magically expressive social media
+
+Which again is a reference to **Atsuko Kagari** a.k.a. **Akko**.
