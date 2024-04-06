@@ -1,0 +1,7 @@
+wiki/1
+
+§ FloatingGhost (Fediverse, Who is Who)
+
+⸺ by Charles Iliya Krempeaux
+
+**FloatingGhost** (usually written as “**@FloatingGhost**”) is the nickname of the lead developer of [[fediverse/software/akkoma]].
