@@ -74,14 +74,14 @@ These other **Fediverse** software includes:
 At last count there are **about 40 different //Fediverse// software**.
 Many of them provide a very different experience from the others.
 
-• [[fediverse/software/akkoma]], <ziba-link>mastodon]], <ziba-link>firefish]], <ziba-link>pleroma]] and others are Twitter-like.
+• [[fediverse/software/akkoma]], [[fediverse/software/mastodon]], [[fediverse/software/firefish]], [[fediverse/software/pleroma]] and others are Twitter-like.
 • [[fediverse/software/pixelfed]] is Instagram-like.
 • [[fediverse/software/peertube]] is YouTube-like.
 • [[fediverse/software/friendica]] and others are Facebook-like.
 • [[fediverse/software/lemmy]] and others are Reddit-like.
 • [[fediverse/software/nextcloud]] is Google Drive-like.
 • [[fediverse/software/owncast]] is Twitch-like.
-• [[fediverse/software/forgejo]] and <ziba-link>gitea]] are GitHub-like.
+• [[fediverse/software/forgejo]] and [[fediverse/software/gitea]] are GitHub-like.
 • Etc.
 
 Yet, despite all these different user-experiences all these different social-media networks **federate**.
