@@ -94,6 +94,6 @@ The word “Fediverse” is a combination of (a portmanteau of) the words “fed
 
 More information about the **Fediverse** can be found under these (broad) subjects:
 
-• [[fediverse/people]]
 • [[fediverse/software]]
 • [[fediverse/technology]]
+• [[fediverse/who-is-who]]

@@ -1,41 +1,41 @@
 § Who is Who (Fedivese)
 
-by Charles Iliya Krempeaux
+⸺ by Charles Iliya Krempeaux
 
 Here is a list of **who is who** of the **Fediverse** — a list of notable people related to the Fediverse.
 
 §§ A
 
-• [[person/atanaz-ostovar]]
-• [[person/atomicpoet]]
+• [[fediverse/person/atanaz-ostovar]]
+• [[fediverse/person/atomicpoet]]
 
 §§ B
 
-• [[person/benyamin-azarkhazin]]
+• [[fediverse/person/benyamin-azarkhazin]]
 
 §§ C
 
-• [[person/charles-iliya-krempeaux]]
-• [[person/chet-earl-woodside]]
-• [[person/chris-trottier]]
+• [[fediverse/person/charles-iliya-krempeaux]]
+• [[fediverse/person/chet-earl-woodside]]
+• [[fediverse/person/chris-trottier]]
 
 §§ D
 
-• [[person/daniel-supernault]]
-• [[person/dansup]]
+• [[fediverse/person/daniel-supernault]]
+• [[fediverse/person/dansup]]
 
 §§ E
 
-• [[person/ernest-wisniewski]
+• [[fediverse/person/ernest-wisniewski]
 
 §§ F
 
-• [[person/farzaneh-amini]]
-• [[person/floatingghost]
+• [[fediverse/person/farzaneh-amini]]
+• [[fediverse/person/floatingghost]
 
 §§ G
 
-• [[person/gabe-kangas]
+• [[fediverse/person/gabe-kangas]
 
 §§ H
 
@@ -43,24 +43,24 @@ Here is a list of **who is who** of the **Fediverse** — a list of notable peop
 
 §§ J
 
-• [[person/johannes-ernst]]
+• [[fediverse/person/johannes-ernst]]
 
 §§ K
 
-• [[person/kainoa-kanter]
+• [[fediverse/person/kainoa-kanter]
 
 §§ L
 
-• [[person/laurens-hof]]
+• [[fediverse/person/laurens-hof]]
 
 §§ M
 
-• [[person/massoud-seifi]]
-• [[person/matt-baer]]
-• [[person/matthias-pfefferle]]
-• [[person/mehrdad-mirsamie]]
-• [[person/meysam-mousavi]]
-• [[person/muhammad-zaid-ali]]
+• [[fediverse/person/massoud-seifi]]
+• [[fediverse/person/matt-baer]]
+• [[fediverse/person/matthias-pfefferle]]
+• [[fediverse/person/mehrdad-mirsamie]]
+• [[fediverse/person/meysam-mousavi]]
+• [[fediverse/person/muhammad-zaid-ali]]
 
 §§ N
 
@@ -72,15 +72,15 @@ Here is a list of **who is who** of the **Fediverse** — a list of notable peop
 
 §§ R
 
-• [[person/reiver]]
+• [[fediverse/person/reiver]]
 
 §§ S
 
-• [[person/sepideh-farsi]]
+• [[fediverse/person/sepideh-farsi]]
 
 §§ T
 
-• [[person/thatonecalculator]]
+• [[fediverse/person/thatonecalculator]]
 
 §§ U
 
@@ -90,7 +90,7 @@ Here is a list of **who is who** of the **Fediverse** — a list of notable peop
 
 §§ Y
 
-• [[person/yassine-doghri]]
+• [[fediverse/person/yassine-doghri]]
 
 §§ Z
 
