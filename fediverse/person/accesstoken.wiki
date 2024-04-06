@@ -1,0 +1,9 @@
+wiki/1
+
+§ accesstoken (Fediverse, Who is Who)
+
+⸺ by Charles Iliya Krempeaux
+
+**accesstoken** (usually written as “**@accesstoken**”) is the nickname of [[fediverse/person/massoud-seifi]].
+
+See “[[fediverse/person/massoud-seifi]]” for more information.
