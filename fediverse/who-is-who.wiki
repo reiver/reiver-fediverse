@@ -28,12 +28,12 @@ Here is a list of **who is who** of the **Fediverse** — a list of notable peop
 
 §§ E
 
-• [[fediverse/person/ernest-wisniewski]
+• [[fediverse/person/ernest-wisniewski]]
 
 §§ F
 
 • [[fediverse/person/farzaneh-amini]]
-• [[fediverse/person/floatingghost]
+• [[fediverse/person/floatingghost]]
 
 §§ G
 
@@ -49,7 +49,7 @@ Here is a list of **who is who** of the **Fediverse** — a list of notable peop
 
 §§ K
 
-• [[fediverse/person/kainoa-kanter]
+• [[fediverse/person/kainoa-kanter]]
 
 §§ L
 
