@@ -2,7 +2,7 @@ wiki/1
 
 § Fediverse Software
 
-by Charles Iliya Krempeaux
+⸺ by Charles Iliya Krempeaux
 
 This is a list of most the **Fediverse software** as of 2023.
 
