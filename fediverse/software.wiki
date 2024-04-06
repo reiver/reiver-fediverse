@@ -32,7 +32,7 @@ This is a list of most the **Fediverse software** as of 2023.
 
 §§ G
 
-• [[fediverse/software/gitea]
+• [[fediverse/software/gitea]]
 • [[fediverse/software/gnu-social]]
 • [[fediverse/software/gotosocial]]
 • [[fediverse/software/greatape]]
