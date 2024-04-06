@@ -1,308 +1,99 @@
-<article>
-	<h1>Fediverse</h1>
-	<section>
-		<address class="h-card">
-			by
-			<a rel="author" class="u-url" href="http://changelog.ca/"><span class="p-given-name">Charles</span> <span class="p-additional-name">Iliya</span> <span class="p-family-name">Krempeaux</span></a>
-		</address>
-	</section>
-	<section>
-		<p>
-			The <strong>Fediverse</strong> is a federated social-media network.
-		</p>
-		<p>
-			The <strong>Fediverse</strong> is to social-media what the Internet is to computer-networks.
-			I.e., just like the Internet is a network of networks, the Fediverse is a network of social-media networks.
-		</p>
-	</section>
-	<section>
-		<h1>Fediverse Simile</h1>
-		<p>
-			<em>What</em> the <strong>Fediverse</strong> <em>is</em> is more obvious once you start using it, but —
-		</p>
-		<p>
-			This is a simile that helps some people understand <em>what</em> the <strong>Fediverse</strong> <em>is</em> —
-		</p>
-		<p>
-			The <strong>Fediverse</strong> is like e-mail, but where you posts are public (rather than private like they are with e-mail).
-		</p>
-	</section>
-	<section>
-		<h2>Mastodon</h2>
-		<p>
-			<ziba-link dir="software" transform="lowercase">Mastodon</ziba-link> is the most well-known part of the <strong>Fediverse</strong>
-			—
-			due to attention it has been getting from news media and TV.
-		</p>
-		<p>
-			<ziba-link dir="software" transform="lowercase">Mastodon</ziba-link> is <em>not</em> a social-media network <em>per se</em>.
-			<ziba-link dir="software" transform="lowercase">Mastodon</ziba-link> is software that anyone can use to create their own social-media network.
-			I.e., there are many many <ziba-link dir="software" transform="lowercase">Mastodon</ziba-link>-based social-media networks.
-		</p>
-		<p>
-			As of 2023, there are tens of thousands of social-media networks that are using the <ziba-link dir="software" transform="lowercase">Mastodon</ziba-link> software.
-			And that number has been predicted to grow to the hundreds of thousands in the near future!
-		</p>
-		<p>
-			But what is different between this wave of social-media networks and the previous wave of social-media networks is
-			—
-			these thousands and thousands of <ziba-link dir="software" transform="lowercase">Mastodon</ziba-link> based social-media networks <strong>federate</strong>.
-		</p>
-		<blockquote>
-			federation (noun): any group formed from separate entities or objects.
-		</blockquote>
-	</section>
-	<section>
-		<h2>More Fediverse</h2>
-		<p>
-			But <ziba-link dir="software" transform="lowercase">Mastodon</ziba-link> based social-media networks don't just <strong>federate</strong> with other <ziba-link dir="software" transform="lowercase">Mastodon</ziba-link> based social-media networks
-			—
-			they <strong>federate</strong> with <em>any</em> software that "speaks" the language of the <strong>Fediverse</strong> — i.e., <ziba-link transform="lowercase">ActivityPub</ziba-link> and others.
-			These other <strong>Fediverse</strong> software includes:
-		</p>
-		<ul>
-			<li><ziba-link dir="software">akkoma</ziba-link></li>
-			<li><ziba-link dir="software">bookwyrm</ziba-link></li>
-			<li><ziba-link dir="software">castopod</ziba-link></li>
-			<li><ziba-link dir="software">firefish</ziba-link> (previously called “<ziba-link dir="software">calckey</ziba-link>”)</li>
-			<li><ziba-link dir="software">forgejo</ziba-link></li>
-			<li><ziba-link dir="software">friendica</ziba-link></li>
-			<li><ziba-link dir="software">funkwhale</ziba-link></li>
-			<li><ziba-link dir="software">gitea</ziba-link></li>
-			<li><ziba-link dir="software">gnu social</ziba-link></li>
-			<li><ziba-link dir="software">gotosocial</ziba-link></li>
-			<li><ziba-link dir="software">greatape</ziba-link></li>
-			<li><ziba-link dir="software">guppe</ziba-link></li>
-			<li><ziba-link dir="software">kbin</ziba-link></li>
-			<li><ziba-link dir="software">lemmy</ziba-link></li>
-			<li><ziba-link dir="software">misskey</ziba-link></li>
-			<li><ziba-link dir="software">mobilizon</ziba-link></li>
-			<li><ziba-link dir="software">nextcloud</ziba-link></li>
-			<li><ziba-link dir="software">owncast</ziba-link></li>
-			<li><ziba-link dir="software">peertube</ziba-link></li>
-			<li><ziba-link dir="software">pixelfed</ziba-link></li>
-			<li><ziba-link dir="software">pleroma</ziba-link></li>
-			<li><ziba-link dir="software">plume</ziba-link></li>
-			<li><ziba-link dir="software">postfreely</ziba-link></li>
-			<li><ziba-link dir="software">postmarks</ziba-link></li>
-			<li><ziba-link dir="software">socialhome</ziba-link></li>
-			<li><ziba-link dir="software">writefreely</ziba-link></li>
-			<li><strong>and more!</strong></li>
-		</ul>
-		<p>
-			At last count there are <strong>about 40 different <em>Fediverse</em> software</strong>.
-			Many of them provide a very different experience from the others.
-		</p>
-		<ul>
-			<li><ziba-link dir="software">akkoma</ziba-link>, <ziba-link>mastodon</ziba-link>, <ziba-link>firefish</ziba-link>, <ziba-link>pleroma</ziba-link> and others are Twitter-like.</li>
-			<li><ziba-link dir="software">pixelfed</ziba-link> is Instagram-like.</li>
-			<li><ziba-link dir="software">peertube</ziba-link> is YouTube-like.</li>
-			<li><ziba-link dir="software">friendica</ziba-link> and others are Facebook-like.</li>
-			<li><ziba-link dir="software">lemmy</ziba-link> and others are Reddit-like.</li>
-			<li><ziba-link dir="software">nextcloud</ziba-link> is Google Drive-like.</li>
-			<li><ziba-link dir="software">owncast</ziba-link> is Twitch-like.</li>
-			<li><ziba-link dir="software">forgejo</ziba-link> and <ziba-link>gitea</ziba-link> are GitHub-like.</li>
-			<li>Etc.</li>
-		</ul>
-		<p>
-			Yet, despite all these different user-experiences all these different social-media networks <strong>federate</strong>.
-		</p>
-	</section>
-	<section>
-		<h2>Etymology of ‘Fediverse’</h2>
-		<p>
-			The word “Fediverse” is a combination of (a portmanteau of) the words “federation” and “universe”, or “federated” and “universe”.
-		</p>
-	</section>
-	<section>
-		<section>
-			<h2 id="A">A</h2>
-			<ul>
-				<li><ziba-link transform="lowercase">ActivityPub</ziba-link></li>
-				<li><ziba-link transform="lowercase">ActivityStreams</ziba-link></li>
-				<li><ziba-link dir="software">akkoma</ziba-link></li>
-				<li><ziba-link dir="person">Atanaz Ostovar</ziba-link></li>
-				<li><ziba-link dir="person">atomicpoet</ziba-link></li>
-			</ul>
-		</section>
-		<section>
-			<h2 id="B">B</h2>
-			<ul>
-				<li><ziba-link dir="person">Benyamin Azarkhazin</ziba-link></li>
-				<li><ziba-link dir="software">bookwyrm</ziba-link></li>
-			</ul>
-		</section>
-		<section>
-			<h2 id="C">C</h2>
-			<ul>
-				<li><ziba-link dir="software">calckey</ziba-link></li>
-				<li><ziba-link dir="software">castopod</ziba-link></li>
-				<li><ziba-link dir="person">Charles Iliya Krempeaux</ziba-link></li>
-				<li><ziba-link dir="person">Chet Earl Woodside</ziba-link></li>
-				<li><ziba-link dir="person">Chris Trottier</ziba-link></li>
-			</ul>
-		</section>
-		<section>
-			<h2 id="D">D</h2>
-			<ul>
-				<li><ziba-link dir="person">Daniel Supernault</ziba-link></li>
-				<li><ziba-link dir="person">dansup</ziba-link></li>
-			</ul>
-		</section>
-		<section>
-			<h2 id="E">E</h2>
-			<ul>
-				<li><ziba-link dir="person">Ernest Wisniewski</ziba-link></li>
-				<li><ziba-link transform="lowercase">Eternal November</ziba-link></li>
-			</ul>
-		</section>
-		<section>
-			<h2 id="F">F</h2>
-			<ul>
-				<li><ziba-link dir="person">Farzaneh Amini</ziba-link></li>
-				<li><ziba-link transform="lowercase">FediDB</ziba-link></li>
-				<li><ziba-link transform="lowercase">FediForum</ziba-link></li>
-				<li><ziba-link name="id">Fediverse ID</ziba-link>
-					<ul>
-						<li><ziba-link dir="id" name="syntax">Fediverse ID syntax</ziba-link></li>
-					</ul>
-				</li>
-				<li><ziba-link name="software">Fediverse software</ziba-link></li>
-				<li><ziba-link dir="software">firefish</ziba-link></li>
-				<li><ziba-link dir="person" transform="lowercase">FloatingGhost</ziba-link></li>
-				<li><ziba-link dir="software">forgejo</ziba-link></li>
-				<li><ziba-link dir="software">friendica</ziba-link></li>
-				<li><ziba-link dir="software">funkwhale</ziba-link></li>
-			</ul>
-		</section>
-		<section>
-			<h2 id="G">G</h2>
-			<ul>
-				<li><ziba-link dir="person">Gabe Kangas</ziba-link></li>
-				<li><ziba-link dir="software">gitea</ziba-link></li>
-				<li><ziba-link dir="software">gnu social</ziba-link></li>
-				<li><ziba-link dir="software">gotosocial</ziba-link></li>
-				<li><ziba-link dir="software">greatape</ziba-link></li>
-				<li><ziba-link dir="software">guppe</ziba-link></li>
-			</ul>
-		</section>
-		<section>
-			<h2 id="H">H</h2>
-			<ul>
-				<li><ziba-link>host-meta</ziba-link></li>
-			</ul>
-		</section>
-		<section>
-			<h2 id="I">I</h2>
-		</section>
-		<section>
-			<h2 id="J">J</h2>
-			<ul>
-				<li><ziba-link dir="person">Johannes Ernst</ziba-link></li>
-				<li><ziba-link>jrd</ziba-link></li>
-			</ul>
-		</section>
-		<section>
-			<h2 id="K">K</h2>
-			<ul>
-				<li><ziba-link dir="person">Kainoa Kanter</ziba-link></li>
-				<li><ziba-link dir="software">kbin</ziba-link></li>
-			</ul>
-		</section>
-		<section>
-			<h2 id="L">L</h2>
-			<ul>
-				<li><ziba-link dir="person">Laurens Hof</ziba-link></li>
-				<li><ziba-link dir="software">lemmy</ziba-link></li>
-			</ul>
-		</section>
-		<section>
-			<h2 id="M">M</h2>
-			<ul>
-				<li><ziba-link dir="person">Massoud Seifi</ziba-link></li>
-				<li><ziba-link dir="person">Matt Baer</ziba-link></li>
-				<li><ziba-link dir="person">Matthias Pfefferle</ziba-link></li>
-				<li><ziba-link dir="person">Mehrdad Mirsamie</ziba-link></li>
-				<li><ziba-link dir="person">Meysam Mousavi</ziba-link></li>
-				<li><ziba-link dir="software">misskey</ziba-link></li>
-				<li><ziba-link dir="software">mobilizon</ziba-link></li>
-				<li><ziba-link dir="person">Muhammad Zaid Ali</ziba-link></li>
-			</ul>
-		</section>
-		<section>
-			<h2 id="N">N</h2>
-			<ul>
-				<li><ziba-link dir="software">nextcloud</ziba-link></li>
-				<li><ziba-link>notable servers</ziba-link></li>
-			</ul>
-		</section>
-		<section>
-			<h2 id="O">O</h2>
-			<ul>
-				<li><ziba-link>ostatus</ziba-link></li>
-				<li><ziba-link dir="software">owncast</ziba-link></li>
-			</ul>
-		</section>
-		<section>
-			<h2 id="P">P</h2>
-			<ul>
-				<li><ziba-link dir="software">peertube</ziba-link></li>
-				<li><ziba-link dir="software">pixelfed</ziba-link></li>
-				<li><ziba-link dir="software">pleroma</ziba-link></li>
-				<li><ziba-link dir="software">plume</ziba-link></li>
-				<li><ziba-link>popular servers</ziba-link></li>
-				<li><ziba-link dir="software">postfreely</ziba-link></li>
-				<li><ziba-link dir="software">postmarks</ziba-link></li>
-			<ul>
-		</section>
-		<section>
-			<h2 id="Q">Q</h2>
-		</section>
-		<section>
-			<h2 id="R">R</h2>
-			<ul>
-				<li><ziba-link dir="person">reiver</ziba-link></li>
-			</ul>
-		</section>
-		<section>
-			<h2 id="S">S</h2>
-			<ul>
-				<li><ziba-link dir="person">Sepideh Farsi</ziba-link></li>
-				<li><ziba-link dir="software">socialhome</ziba-link></li>
-			</ul>
-		</section>
-		<section>
-			<h2 id="T">T</h2>
-			<ul>
-				<li><ziba-link dir="person" transform="lowercase">ThatOneCalculator</ziba-link></li>
-				<li><ziba-link transform="lowercase">Threadiverse</ziba-link></li>
-			</ul>
-		</section>
-		<section>
-			<h2 id="U">U</h2>
-		</section>
-		<section>
-			<h2 id="V">V</h2>
-		</section>
-		<section>
-			<h2 id="W">W</h2>
-			<ul>
-				<li><ziba-link transform="lowercase">WebFinger</ziba-link></li>
-				<li><ziba-link dir="software">writefreely</ziba-link></li>
-				<li><ziba-link>who is who</ziba-link></li>
-			</ul>
-		</section>
-		<section>
-			<h2 id="X">X</h2>
-		</section>
-		<section>
-			<h2 id="Y">Y</h2>
-			<ul>
-				<li><ziba-link dir="person">Yassine Doghri</ziba-link></li>
-			</ul>
-		</section>
-		<section>
-			<h2 id="Z">Z</h2>
-		</section>
-	</section>
-</article>
+wiki/1
+
+§ Fediverse
+
+⸺ by Charles Iliya Krempeaux
+
+The **Fediverse** is a federated social-media network.
+
+The **Fediverse** is to social-media what the Internet is to computer-networks.
+I.e., just like the Internet is a network of networks, the Fediverse is a network of social-media networks.
+
+§§ Fediverse Simile
+
+//What// the **Fediverse** //is// is more obvious once you start using it, but —
+
+This is a simile that helps some people understand //what// the **Fediverse** //is// —
+
+The **Fediverse** is like e-mail, but where you posts are public (rather than private like they are with e-mail).
+
+§§ Mastodon
+
+[[fediverse/software/mastodon]] is the most well-known part of the **Fediverse**
+—
+due to attention it has been getting from news media and TV.
+
+[[fediverse/software/mastodon]] is //not// a social-media network //per se//.
+[[fediverse/software/mastodon]] is software that anyone can use to create their own social-media network.
+I.e., there are many many [[fediverse/software/mastodon]]-based social-media networks.
+
+As of 2023, there are tens of thousands of social-media networks that are using the [[fediverse/software/mastodon]] software.
+And that number has been predicted to grow to the hundreds of thousands in the near future!
+
+But what is different between this wave of social-media networks and the previous wave of social-media networks is
+—
+these thousands and thousands of [[fediverse/software/mastodon]] based social-media networks **federate**.
+
+**federation (noun): any group formed from separate entities or objects.**
+
+§§ More Fediverse
+
+But [[fediverse/software/mastodon]] based social-media networks don't just **federate** with other [[fediverse/software/mastodon]] based social-media networks
+—
+they **federate** with //any// software that "speaks" the language of the **Fediverse** — i.e., [[fediverse/activitypub]] and others.
+These other **Fediverse** software includes:
+
+• [[fediverse/software/akkoma]]
+• [[fediverse/software/bookwyrm]]
+• [[fediverse/software/castopod]]
+• [[fediverse/software/firefish]] (previously called “[[fediverse/software/calckey]]”)
+• [[fediverse/software/forgejo]]
+• [[fediverse/software/friendica]]
+• [[fediverse/software/funkwhale]]
+• [[fediverse/software/gitea]]
+• [[fediverse/software/gnu social]]
+• [[fediverse/software/gotosocial]]
+• [[fediverse/software/greatape]]
+• [[fediverse/software/guppe]]
+• [[fediverse/software/kbin]]
+• [[fediverse/software/lemmy]]
+• [[fediverse/software/misskey]]
+• [[fediverse/software/mobilizon]]
+• [[fediverse/software/nextcloud]]
+• [[fediverse/software/owncast]]
+• [[fediverse/software/peertube]]
+• [[fediverse/software/pixelfed]]
+• [[fediverse/software/pleroma]]
+• [[fediverse/software/plume]]
+• [[fediverse/software/postfreely]]
+• [[fediverse/software/postmarks]]
+• [[fediverse/software/socialhome]]
+• [[fediverse/software/writefreely]]
+• **and more!**
+
+At last count there are **about 40 different //Fediverse// software**.
+Many of them provide a very different experience from the others.
+
+• [[fediverse/software/akkoma]], <ziba-link>mastodon]], <ziba-link>firefish]], <ziba-link>pleroma]] and others are Twitter-like.
+• [[fediverse/software/pixelfed]] is Instagram-like.
+• [[fediverse/software/peertube]] is YouTube-like.
+• [[fediverse/software/friendica]] and others are Facebook-like.
+• [[fediverse/software/lemmy]] and others are Reddit-like.
+• [[fediverse/software/nextcloud]] is Google Drive-like.
+• [[fediverse/software/owncast]] is Twitch-like.
+• [[fediverse/software/forgejo]] and <ziba-link>gitea]] are GitHub-like.
+• Etc.
+
+Yet, despite all these different user-experiences all these different social-media networks **federate**.
+
+§ Etymology of ‘Fediverse’
+
+The word “Fediverse” is a combination of (a portmanteau of) the words “federation” and “universe”, or “federated” and “universe”.
+
+§§ Fediverse Subjects
+
+More information about the **Fediverse** can be found under these (broad) subjects:
+
+• [[fediverse/people.wiki]]
+• [[fediverse/software.wiki]]
+• [[fediverse/technology.wiki]]
