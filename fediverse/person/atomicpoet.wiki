@@ -4,6 +4,6 @@ wiki/1
 
 ⸺ by Charles Iliya Krempeaux
 
-**atomicpoet** (usually written as “**@atomicpoet**”) is the nickname of [[chris-trottier]].
+**atomicpoet** (usually written as “**@atomicpoet**”) is the nickname of [[fediverse/person/chris-trottier]].
 
-See “[[chris-trottier]]” for more information.
+See “[[fediverse/person/chris-trottier]]” for more information.
