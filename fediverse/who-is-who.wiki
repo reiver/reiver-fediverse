@@ -4,7 +4,9 @@ wiki/1
 
 ⸺ by Charles Iliya Krempeaux
 
-Here is a list of **who is who** of the **Fediverse** — a list of notable people related to the Fediverse.
+Here is a list of **who is who** of the **Fediverse** — a list of notable people direct related to the Fediverse itself.
+
+(Note that this does //not// include people who are notable (for other reasons) and just happened to be on the Fediverse.)
 
 §§ A
 
