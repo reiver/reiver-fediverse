@@ -6,8 +6,8 @@ wiki/1
 
 **Atanaz Ostovar** is a notable person on the Fediverse because —
 
-• [[spacehost]], which is a fully-managed hosting provider for all the [[fediverse]], for which she was a core part of the team, and
-• [[greatape]], which is [[fediverse/software]] focused on audio- and video- conversation, for which she was a core part of the team.
+• [[fediverse/spacehost]], which is a fully-managed hosting provider for all the [[fediverse]], for which she was a core part of the team, and
+• [[fediverse/software/greatape]], which is [[fediverse/software]] focused on audio- and video- conversation, for which she was a core part of the team.
 
 §§ Professional Biography
 
