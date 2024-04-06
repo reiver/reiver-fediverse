@@ -1,0 +1,11 @@
+wiki/1
+
+§ Atanaz Ostovar (Fediverse, Who is Who)
+
+⸺ by Charles Iliya Krempeaux
+
+**Atanaz Ostovar** is a notable person on the Fediverse because —
+
+• [[spacehost]], which is a fully-managed hosting provider for all the [[Fediverse]], for which she one was part of the team as a **quality assurance (QA) engineer**, and
+• [[greatape]], which is [[fediverse/software]] focused on audio- and video- conversation, for which she one was part of the team as a **quality assurance (QA) engineer**.
+
