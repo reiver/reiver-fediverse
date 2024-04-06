@@ -70,11 +70,11 @@ This is a list of most the **Fediverse software** as of 2023.
 
 
 
-• [[fediverse/software/peerTube]]
+• [[fediverse/software/peertube]]
 • [[fediverse/software/pixelfed]]
 • [[fediverse/software/pleroma]]
 • [[fediverse/software/plume]]
-• [[fediverse/software/postFreely]]
+• [[fediverse/software/postfreely]]
 • [[fediverse/software/postmarks]]
 
 §§ Q
