@@ -1,0 +1,71 @@
+wiki/1
+
+§ Fediverse Technology
+
+⸺ by Charles Iliya Krempeaux
+
+This is a list of most the **Fediverse technology** as of 2024.
+
+§§ A
+
+• [[fediverse/technology/activitypub]]
+• [[fediverse/technology/activitystreams]]
+
+§§ B
+
+§§ C
+
+§§ D
+
+§§ E
+
+§§ F
+
+• [[fediverse/id]]
+
+§§ G
+
+§§ H
+
+• [[fediverse/technology/host-meta]]
+
+§§ I
+
+§§ J
+
+• [[fediverse/technology/jrd]]
+• [[fediverse/technology/json-ld]]
+
+§§ K
+
+§§ L
+
+§§ M
+
+§§ N
+
+§§ O
+
+§§ P
+
+§§ Q
+
+§§ R
+
+§§ S
+
+§§ T
+
+§§ U
+
+§§ V
+
+§§ W
+
+• [[fediverse/technology/webfinger]]
+
+§§ X
+
+§§ Y
+
+§§ Z
