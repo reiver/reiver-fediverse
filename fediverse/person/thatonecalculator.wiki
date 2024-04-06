@@ -4,6 +4,6 @@ wiki/1
 
 ⸺ by Charles Iliya Krempeaux
 
-**ThatOneCalculator** (usually written as “**@ThatOneCalculator**”) is the nickname of [[kainoa-kanter]].
+**ThatOneCalculator** (usually written as “**@ThatOneCalculator**”) is the nickname of [[fediverse/person/kainoa-kanter]].
 
-See “[[kainoa-kanter]]” for more information.
+See “[[fediverse/person/kainoa-kanter]]” for more information.
