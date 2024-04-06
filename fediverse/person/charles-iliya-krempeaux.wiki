@@ -1,0 +1,32 @@
+wiki/1
+
+§ Charles Iliya Krempeaux (Fediverse, Who is Who)
+
+⸺ by Charles Iliya Krempeaux
+
+**Charles Iliya Krempeaux**, who goes by the nickname **@reiver**, is a notable person on the Fediverse because —
+
+• [[fediverse/spacehost]], which is a fully-managed hosting provider for all the Fediverse, which he created with [[fediverse/personchris-trottier]] and [[fediverse/person/massoud-seifi]],
+• [[fediverse/software/greatape]], which is Fediverse software focused on audio- and video- conversation, which he created with [[fediverse/personchris-trottier] and [[fediverse/person/massoud-seifi]],
+• [[fediverse/software/postfreely]], which is Fediverse software focused on long-form writing, blogging, and the small-net, which he created with Mathew, initially by forking [[fediverse/software/writefreely]] and then taking it along a different development path.
+
+§§ Sysop
+
+**Charles Iliya Krempeaux** is the <abbr title="system operator">sysop</abbr> for the following Fediverse servers:
+
+• firefish.lol ([[fediverse/software/firefish]])
+• firefish.social ([[fediverse/software/firefish]])
+• flamewar.social ([[fediverse/software/lemmy]])
+• greatape.social ([[fediverse/software/greapape]])
+• kbin.forum ([[fediverse/software/kbin]])
+• playset.social ([[fediverse/software/pixelfed]])
+• spacehost.team ([[fediverse/software/mastodon]])
+
+§§ Fediverse IDs
+
+**Charles Iliya Krempeaux**'s [[fediverse/id]]'s are:
+
+• @charles@spacehost.team
+• @reiver@firefish.lol
+• @reiver@flamewar.social
+• @reiver@mastodon.social
