@@ -12,7 +12,7 @@ This is a list of most the **Fediverse software** as of 2023.
 
 §§ B
 
-• [[fediverse/software/bookWyrm]]
+• [[fediverse/software/bookwyrm]]
 
 §§ C
 
