@@ -1,20 +1,20 @@
 wiki/1
 
-§ Akkoma (Fediverse)
+§ Akkoma (Fediverse Software)
 
-by Charles Iliya Krempeaux
+⸺ by Charles Iliya Krempeaux
 
-**Akkoma** is **Fediverse** software focused on **micro-blogging**, that started its life as a fork of [[pleroma]]
+**Akkoma** is [[fediverse/software]] focused on **micro-blogging**, that started its life as a fork of [[fediverse/software/pleroma]].
 
 Being software for a micro-blogging social-media network, **Akkoma** is similar to:
 
-• [[firefish]],
-• [[friendica]],
-• [[gnu-social]],
-• [[gotosocial]],
-• [[mastodon]],
-• [[misskey]],
-• [[pleroma]],
+• [[fediverse/software/firefish]],
+• [[fediverse/software/friendica]],
+• [[fediverse/software/gnu-social]],
+• [[fediverse/software/gotosocial]],
+• [[fediverse/software/mastodon]],
+• [[fediverse/software/misskey]],
+• [[fediverse/software/pleroma]],
 • and others.
 
 §§ Name
