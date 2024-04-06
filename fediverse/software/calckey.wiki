@@ -1,0 +1,12 @@
+§ Calckey (Fediverse Software)
+
+⸺ by Charles Iliya Krempeaux
+
+**Calckey** is [[fediverse/software]].
+
+**Calckey** started its life as a fork of [[fediverse/software/misskey]].
+
+**Calckey** was created by [[fediverse/person/kainoa-kanter]], who goes by the nickname [[fediverse/software/thatonecalculator]].
+
+**Calckey** was later renamed to “firefish”.
+See [[fediverse/software/firefish]] for more information.
