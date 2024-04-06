@@ -9,3 +9,14 @@ wiki/1
 • [[spacehost]], which is a fully-managed hosting provider for all the [[Fediverse]], for which she one was part of the team as a **quality assurance (QA) engineer**, and
 • [[greatape]], which is [[fediverse/software]] focused on audio- and video- conversation, for which she one was part of the team as a **quality assurance (QA) engineer**.
 
+§§ Professional Biography
+
+**Atanaz Ostovar** is a **quality assurance (QA) engineer**, a **project manager**, and a **director**.
+
+**Atanaz Ostovar** started off as a **computer hardware engineer**.
+She got interested finding issues, problems, and bugs in every little things.
+And, as a result, ended up switching to being a **quality assurance (QA) engineer**, to make her role match her interest.
+
+**Atanaz Ostovar**'s career as a **quality assurance (QA) engineer** started in 2017.
+
+**Atanaz Ostovar** has a //Bachelor of Science// (BSc) from the //Isfahan University of Technology//, and a //Master of Sciences// (MSc) from //Sharif University of Technology//.
