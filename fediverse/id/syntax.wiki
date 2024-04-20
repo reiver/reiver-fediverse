@@ -1,0 +1,193 @@
+wiki/1
+
+§ Fediverse ID Syntax
+
+⸺ by Charles Iliya Krempeaux
+
+Currently there is no canonical syntax for a **Fediverse ID**.
+However, we can infer a syntax for the **Fediverse ID** given that it has to be used with [[webfinger]].
+
+§§ De Facto
+
+Currently, the syntax of a **Fediverse ID** is whatever each [[fediverse/software]] supports.
+Which could be different from each other!
+And could even change over time!
+
+The final say for what is and is not a valid **Fediverse ID** are the many implementations of [[webfinger]] in-the-wild for all the different [[fediverse/software]] out there.
+Which again could be different from each other!
+And again could even change over time!
+
+The reason being because, from a technical point-of-view, a **Fediverse ID** is turned into an [[acct-uri]] and then resolved with [[webfinger]].
+
+But, having said that, we can infer a //minimum syntax// and a //maximum syntax// for what should be considered a valid **Fediverse ID**.
+I.e., the syntax that any implmentation for **Fediverse ID**s //should// support.
+But, to say it explicitly, an implemention for **Fediverse ID**s //could// support more than just what is given by thes syntaxes.
+
+Perhaps oddly, the **maximal syntax** is simpler than the **minimal syntax**.
+
+§§ Maximal Fediverse ID Syntax
+
+An [[acct-uri]] has some constraints according to the IETF RFC-7565 (The 'acct' URI Scheme) specification.
+But — software, such as [[fediverse/software]], don't have to implement those constraints.
+I.e., they can accept more than just what IETF RFC-7565 (The 'acct' URI Scheme) specifies.
+
+Given that, here is a more //maximal// syntax for a **Fediverse ID**:
+
+
+	fediverseID = "@" [ actor ] "@" host
+
+Where, given that ‘NOTATSIGN’ (i.e., //not at-sign//) is any Unicode character that isn't the U+0040 ("@") at-signs —
+
+‘actor’ is defined as:
+
+	actor       = NOTATSIGN *NOTATSIGN      ; one or more characters that are not an at-sign ("@") (U+0040)
+
+And ‘host’ is defined as:
+
+	host        = NOTATSIGN *NOTATSIGN      ; one or more characters that are not an at-sign ("@") (U+0040)
+
+Note in this //maximal// **Fediverse ID** syntax ‘actor’ is optional.
+But when ‘actor’ isn't included there still needs to be 2 U+0040 ("@") at-signs.
+
+Here are some **Fediverse ID**s that fit this //maximal// **Fediverse ID** syntax:
+
+• ``@joeblow@example.com``
+• ``@janedoe@something.example``
+• ``@reiver@mastodon.social``
+• ``@reiver@greatape.social``
+• ``@dariush@reiver.link``
+• ``@malekeh@reiver.link``
+
+• ``@دورود@example.com``
+
+• ``@@example.com``
+• ``@@something.example``
+• ``@@mastodon.social``
+• ``@@greatape.social``
+• ``@@reiver.link``
+
+• ``@🙂@example.com``
+• ``@hello world :-)@something.example``
+• ``@(╯°□°)╯︵ ┻━┻@mastodon.social``
+• ``@😈❤️@greatape.social``
+• ``@✪@reiver.link``
+• ``@awesome 🙂@reiver.link``
+
+• ``@.@example.com``
+• ``@joe.blow@example.com``
+• ``@jane.doe@something.example``
+• ``@.reiver@mastodon.social``
+• ``@reiver.@greatape.social``
+• ``@d.a.r.i.u.s.h@reiver.link``
+• ``@.m.a.l.e.k.e.h.@reiver.link``
+
+• ``@joeblow+@example.com``
+• ``@janedoe+@something.example``
+• ``@reiver+@mastodon.social``
+• ``@reiver+@greatape.social``
+• ``@dariush+@reiver.link``
+• ``@malekeh+@reiver.link``
+
+• ``@joeblow+tech@example.com``
+• ``@janedoe+psychology@something.example``
+• ``@reiver+fediverse@mastodon.social``
+• ``@reiver+allyourbases@greatape.social``
+• ``@dariush+one@reiver.link``
+• ``@malekeh+two@reiver.link``
+
+• ``@joeblow/tech@example.com``
+• ``@janedoe/psychology@something.example``
+• ``@reiver/fediverse@mastodon.social``
+• ``@reiver/allyourbases@greatape.social``
+• ``@dariush/one@reiver.link``
+• ``@malekeh/two@reiver.link``
+
+§§ acct URI
+
+Part of the process of **resolving** a **Fediverse ID** transfomrs a **Fediverse ID** into an [[acct-uri]].
+(And then using that [[acct-uri]] version of the **Fediverse ID** makes a request to [[webfinger]].)
+
+Here is an example of transforming a **Fediverse ID** into an [[acct-uri]]:
+
+	     at sign
+	       ↓
+	       @joeblow@example.com ← Fediverse ID
+	
+	   acct:joeblow@example.com ← acct URI
+	       ↑
+	  no at sign
+
+A client would then make a request to:
+
+	https://example.com/.well-known/host-meta
+
+To discover what the (template) URL for [[webfinger]] is.
+And then, for example, if it is at:
+
+	https://example.com/.well-known/webfinger?resource={uri}
+
+Then make a request to:
+
+	https://example.com/.well-known/webfinger?resource=acct:joeblow@example.com
+
+This [[webfinger]] implementation //could// accept whatever it wants.
+It doesn't have to restrict itself to what is specified by the IETF RFC-7565 (The 'acct' URI Scheme) specification.
+BUT —
+
+§§ Minimal Fediverse ID Syntax
+
+Let us consider what a //minimal// **Fediverse ID** syntax would be if we constrained ourselves to what the IETF RFC-7565 (The 'acct' URI Scheme) specificaiton says.
+
+Here is what we get:
+
+	fediverseID = "@" actor "@" host
+
+Where “actor” is defined as:
+
+	actor       = unreserved / sub-delims 0*( unreserved / pct-encoded / sub-delims )
+	
+	unreserved  = ALPHA / DIGIT / "-" / "." / "_" / "~"
+	
+	sub-delims  = "!" / "$" / "&" / "'" / "(" / ")" / "*" / "+" / "," / ";" / "="
+	
+	pct-encoded = "%" HEXDIG HEXDIG
+	
+	ALPHA       =  %x41-5A / %x61-7A   ; A-Z / a-z
+	
+	DIGIT       =  %x30-39             ; 0-9
+	
+	HEXDIG      =  DIGIT / "A" / "B" / "C" / "D" / "E" / "F"
+
+(Again note that an implementation //could// support more characters for “actor” than what is given by this definition.)
+
+And “host” is defined as
+
+	host        = IP-literal / IPv4address / reg-name
+	
+	IP-literal  = "[" ( IPv6address / IPvFuture  ) "]"
+	
+	IPv6address =                            6( h16 ":" ) ls32
+	            /                       "::" 5( h16 ":" ) ls32
+	            / [               h16 ] "::" 4( h16 ":" ) ls32
+	            / [ *1( h16 ":" ) h16 ] "::" 3( h16 ":" ) ls32
+	            / [ *2( h16 ":" ) h16 ] "::" 2( h16 ":" ) ls32
+	            / [ *3( h16 ":" ) h16 ] "::"    h16 ":"   ls32
+	            / [ *4( h16 ":" ) h16 ] "::"              ls32
+	            / [ *5( h16 ":" ) h16 ] "::"              h16
+	            / [ *6( h16 ":" ) h16 ] "::"
+	
+	h16         = 1*4HEXDIG
+	
+	ls32        = ( h16 ":" h16 ) / IPv4address
+	
+	IPvFuture   = "v" 1*HEXDIG "." 1*( unreserved / sub-delims / ":" )
+	
+	IPv4address = dec-octet "." dec-octet "." dec-octet "." dec-octet
+	
+	dec-octet   = DIGIT                 ; 0-9
+	            / %x31-39 DIGIT         ; 10-99
+	            / "1" 2DIGIT            ; 100-199
+	            / "2" %x30-34 DIGIT     ; 200-249
+	            / "25" %x30-35          ; 250-255
+	
+	reg-name    = *( unreserved / pct-encoded / sub-delims )
