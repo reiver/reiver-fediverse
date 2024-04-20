@@ -6,4 +6,10 @@ wiki/1
 
 **reiver** (usually written as “**@reiver**”) is the nickname of [[fediverse/person/charles-iliya-krempeaux]].
 
-See “[[fediverse/person/charles-iliya-krempeaux]]” for more information.
+For more (Fediverse related) information.
+
+• [[fediverse/person/charles-iliya-krempeaux]]
+
+And for more general (not necessarily Fediverse) coverage of **Charles Iliya Krempeaux**, see:
+
+• [[charles-iliya-krempeaux]]
