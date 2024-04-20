@@ -1,0 +1,119 @@
+wiki/1
+
+§ acct URI
+
+⸺ by Charles Iliya Krempeaux
+
+An **acct URI** looks like this:
+
+	acct:joeblow@example.com
+
+Typically an **acct URI** is used to turn an **e-mail address** or [[fediverse/id]] into a URL / URI.
+(There are reasons why one might want to turn a pointer or identifier that isn' a URL / URI into a URL / URI.)
+
+For example, this [[fediverse/id]]:
+
+	@reiver@reiver.link
+
+Gets turned into this **acct URI**:
+
+	acct:reiver@reiver.link
+
+§§ Why acct URIs
+
+The TL;DR of //why acct URIs‽// is — 
+
+• … because people seem to be comfortable with something that looks more like an **e-mail address** or as **username** as an **identifier** but the technology only understands URLs and URIs; so you still have to turn things that look like **e-mail address** and **usernames** into URLs and URIs; which is what **acct URI** is; and “no”, mailto URI won't work;
+• … because a new URI scheme makes it easy to identify that it should be used with [[webfinger]] (rather than being able to do something else with it).
+
+There are many conceptual places where some kind of an **identifier** is a core part of it.
+
+For example, on any social protocol I am aware of, there is some type of notion of an **identifier**.
+
+BBS echo-mail has them.
+BBS net-mail has them.
+Internet e-mail has them.
+Internet finger-protocol has them.
+Internet gemini-protocol has them.
+(Multi-User) Linux &amp; Unix operating systems have them.
+Twitter has them.
+Etc.
+
+The **identifier** enables you to send messages, to share photos &amp; images, to control data, etc.
+
+With a single centralized system, dealing with **identifiers** is comparatively more straight-forward.
+But when dealing with a distributed, decentralized, or federated system, things can get more complex — for example, how do you point to and interact with someone or something from a different node on the network?
+Etc.
+
+Experience (with OpenID and other systems) seems to suggest that (at least currently) most people are more comfortable with using something that looks more like an **e-mail address** or as **username** as an **identifier** rather than a URL or a URI.
+For example — 
+
+• joeblow@example.com
+• jandoe@something.example
+• actor@host
+
+[[fediverse/id]]s look very similar to e-mail addresses.
+They just have a U+0040 at-sign ("@") at the beginning of them:
+
+• @joeblow@example.com
+• @jandoe@something.example
+• @actor@host
+
+But [[webfinger]] only understand URLs and URIs.
+So those have to be turned into URLs or URIs.
+Which, usually, is very straight-forward:
+
+• acct:joeblow@example.com
+• acct:jandoe@something.example
+• acct:actor@host
+
+§§ Fediverse Users
+
+Most users of the **Fediverse** aren't aware of **acct URI**s.
+And really, they don't have to be aware of them!
+
+§§ Fediverse Programmers
+
+But behind the scenes, **acct URI**s are used by [[fediverse/software]].
+
+Behind the scenes, a [[fediverse/id]] is turned into a **acct URI**, and then that **acct URI** is used to in a request to [[webfinger]] .
+
+If you are a **programmer** / **software engineer** / **software developer** / etc, then you may need to be aware of **acct URI**s, and have some level of understanding of them.
+
+§§ Resolving
+
+Part of the process of **resolving** a **Fediverse ID** transfomrs a **Fediverse ID** into an [[acct-uri]].
+(And then using that [[acct-uri]] version of the **Fediverse ID** makes a request to [[webfinger]].)
+
+Here is an example of transforming a **Fediverse ID** into an [[acct-uri]]:
+
+	     at sign
+	       ↓
+	       @joeblow@example.com ← Fediverse ID
+	
+	   acct:joeblow@example.com ← acct URI
+	       ↑
+	  no at sign
+
+A client would then make a request to:
+
+	https://example.com/.well-known/host-meta
+
+To discover what the (template) URL for [[webfinger]] is.
+And then, for example, if it is at:
+
+	https://example.com/.well-known/webfinger?resource={uri}
+
+Then make a request to:
+
+	https://example.com/.well-known/webfinger?resource=acct:joeblow@example.com
+
+This [[webfinger]] implementation //could// accept whatever it wants.
+It doesn't have to restrict itself to what is specified by the **IETF RFC-7565** (The 'acct' URI Scheme) specification.
+BUT —
+
+§§ See Also
+
+For more information on **acct URI** see:
+
+• [[ietf/rfc-7565]]
