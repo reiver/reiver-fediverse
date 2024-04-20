@@ -1,0 +1,45 @@
+wiki/1
+
+§ Massoud Seifi (Fediverse, Who is Who)
+
+⸺ by Charles Iliya Krempeaux
+
+**Massoud Seifi, PhD**, who goes by the nickname **@accesstoken** or just **@massoud**, is a notable person on the Fediverse because —
+
+• [[fediverse/enterprise/spacehost]] — a fully-managed hosting provider for all the Fediverse, that **Massoud Seifi** co-founded with [[fediverse/person/charles-iliya-krempeaux]], and [[fediverse/person/chris-trottier]],
+• [[fediverse/software/greatape]] — open-source Fediverse software focused on audio- and video- conversation, which he co-founded with [[fediverse/person/charles-iliya-krempeaux]] and [[fediverse/person/chris-trottier]].
+
+§§ Sysop
+
+**Massoud Seifi** is the **system operator** (**sysop**) for the following Fediverse servers:
+
+• ``onepicaday.com`` ([[pixelfed]])
+
+§§ Fediverse IDs
+
+**Massoud Seifi**'s [[fediverse/id]'s are:
+
+• ``@accesstoken@mastodon.social``
+• ``@massoud@onepicaday.com``
+
+§§ Work History
+
+As of 2023, **Massoud Seifi** a ¼ century professional experience — entrepreneur, advisor, executive (CTO), business person, data scientist, machine learning engineer, computer scientist, software engineer, manager, member board of directors.
+
+**Massoud Seifi** is the **Chief Technology Officer** (**CTO**) of **#SpaceHost**, and **Chief Technology Officer** **CTO** of [[railtown-ventures]].
+He was Senior Director of Data Science Applications at **General Electric** (**GE**).
+He was an AI researcher at Trulioo.
+And Massoud had technology he created acquired by General Electric (GE).
+
+At Railtown Venturse, **Massoud Seifi** oversees an ongoing series of innovation initiatives that explore emerging technologies, assess their application to the company’s business and recommend new strategies and solutions.
+
+Prior to joining Railtown, he worked as the Senior Director of Data Science Applications at General Electric (GE), where he directed data science and engineering teams toward a platform for extracting insights from industrial data which led to excellent commercial deals between GE and some major industrial companies.
+
+He joined GE from Bit Stew Systems, where he led the data science and engineering teams to create the premier platform for handling complex data integration, data analysis, and predictive automation for connected devices in the Industrial Internet of Things (IIoT).
+Bit Stew Systems got acquired by GE in 2016.
+
+Earlier in his career, he worked with [[fediverse/person/charles-iliya-krempeaux]] at Trulioo, where they created together one of the first AI-based credit bureau, identity verification and fraud detection systems in the market by analyzing over 1.2 billion social accounts.
+
+Massoud got his PhD from the Sorbonne University (Paris VI) in 2012.
+He is the author of "Stable Community Cores in Complex Networks" published by Presses Académiques Francophones.
+
