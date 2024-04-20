@@ -1,0 +1,51 @@
+wiki/1
+
+§ Fediverse ID
+
+⸺ by Charles Iliya Krempeaux
+
+A **Fediverse ID** is an identifier that conceptually is usually used to point to a **person**, but also can be conceptually used to point to an **application**, a **group**, a **organization**, a **service**, or any other type of entity.
+Here are some sample **Fediverse ID**s:
+
+• ``@joeblow@example.com``
+• ``@name@host``
+• ``@reiver@mastodon.social``
+• ``@massoud@onepicaday.com``
+• ``@atomicpoet@atomicpoet.org``
+
+§§ Resemblance With E-Mail Addresses
+
+A **Fediverse ID** looks similar to an **e-mail address**.
+
+The main superficial difference being that a **Fediverse ID** starts with an **at sign** (“@”) (Unicode character U+0040), but an e-mail address does not.
+
+	     at sign
+	       ↓
+	       @joeblow@example.com ← Fediverse ID
+	
+	        joeblow@example.com ← e-mail address
+	       ↑
+	  no at sign
+
+§§ Usage
+
+**Fediverse IDs** appear in posts on the **Fediverse**, and are typed (something with the help of some form of autocomplete) by users.
+
+§§ acct URI
+
+Part of the process of **resolving** a **Fediverse ID** transfomrs a **Fediverse ID** into an [[acct-uri]].
+(And then using that [[acct-uri]] version of the **Fediverse ID** to make a request to [[webfinger]].)
+
+Here is an example:
+
+	     at sign
+	       ↓
+	       @joeblow@example.com ← Fediverse ID
+	
+	   acct:joeblow@example.com ← acct URI
+	       ↑
+	  no at sign
+
+§§ See Also
+
+• [[fediverse/id/syntax]]
