@@ -1,0 +1,23 @@
+wiki/1
+
+§ Daniel Supernaul (Fediverse, Who is Who)
+
+⸺ by Charles Iliya Krempeaux
+
+**Daniel Supernault**, who goes by the nickname **@dansup**, is a notable person on the Fediverse because —
+
+• [[fediverse/software/pixelfed]] — Fediverse software focused photos and images,
+• [[fediverse/fedidb]] — a service which gathers, tracks, and reports various metrics about the Fediverse.
+
+§§ Sysop
+
+**Daniel Supernault** is the **system operator** (**sysop**) for the following Fediverse servers:
+
+• ``pixelfed.social`` ([[fediverse/software/pixelfed]])
+
+§§ Fediverse IDs
+
+**Daniel Supernault**'s [[fediverse/id]]'s are:
+
+• @dansup@mastodon.social
+• @dansup@pixelfed.social
