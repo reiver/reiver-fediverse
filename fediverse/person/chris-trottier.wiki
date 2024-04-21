@@ -1,0 +1,51 @@
+wiki/1
+
+§ Chris Trottier (Fediverse, Who is Who)
+
+⸺ by Charles Iliya Krempeaux
+
+**Chris Trottier**, who goes by the nickname **@atomicpoet**, is a notable person on the Fediverse because —
+
+• he is an influencer on the Fediverse with a large following — for which **Chris Trottier** talks about the Fediverse and social-media (beyond the Fediverse) in general,
+• [[fedivese/enterprise/spacehost]] — a fully-managed hosting provider for all the Fediverse, that he co-founded with [[fediverse/person/charles-iliya-krempeaux]] and [[fediverse/person/massoud-seifi]],
+• [[fediverse/software/greatape]] — open-source Fediverse software focused on audio- and video- conversation, which he co-founded with [[fediverse/person/charles-iliya-krempeaux]] and [[fediverse/person/massoud-seifi]],
+• [[fediverse/software/firefish]] — open-source Fediverse software focused on micro-blogging, which **Chris Trottier** works on with [[fediverse/person/kainoa-kanter]], and for which Chris does advocacy and marketing.
+
+§§ Sysop
+
+**Chris Trottier** is the **system operator** (**sysop**) for the following Fediverse servers:
+
+• ``atomicpoet.org`` ([[fediverse/software/akkoma]], previoulsy [[fediverse/software/pleroma]])
+• ``peerverse.space`` ([[pixelfed]])
+
+**Chris Trottier** also used to be the **system operator** (**sysop**) of:
+
+• firefish.social ([[fediverse/software/firefish]])
+
+§§ Fediverse IDs
+
+**Chris Trottier**'s [[fediverse/id]]'s are:
+
+• ``@atomicpoet@atomicpoet.org``
+• ``@atomicpoet@peerverse.space``
+
+**Chris Trottier**'s old and no longer used [[fediverse/id]]'s are:
+
+• ``@atomicpoet@firefish.city``
+• ``@atomicpoet@mastodon.social``
+
+§§ Work History
+
+As of 2023, **Chris Trottier** has almost two decades professional experience — entrepreneur, advisor, executive (**Chief Marketing Officer** (**CMO**)), business person, marketer, customer support specialist, QA specialist, manager.
+
+**Chris Trottier** is **Chief Marketing Officer** (**CMO**) at **#SpaceHost**.
+Was head of QA at Railtown Ventures.
+Was **Chief Marketing Officer** (**CMO**) at the Boldkick marketing agency.
+Was **Chief Marketing Officer** (**CMO**) at the social-media network Manyone.
+Was head of customer support at Hootsuite, and later moved into marketing.
+Chris was also a customer support specialist at Microsoft.
+
+**Chris Trottier** is veteran of the social-media industry.
+With [[fediverse/person/charles-iliya-krempeaux]] and others, Chris previously created what was at one time the most popular Twitter app — i.e., Hootsuite.
+The app ([[hootsuite]]) was later extended (mostly by [[fediverse/person/charles-iliya-krempeaux]]) to support Facebook, LinkedIn, Instagram, and other social-media networks.
+**Chris Trottier** has experience with both the consumer-side, and the enterprise-side of social-media.
