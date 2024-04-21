@@ -1,0 +1,15 @@
+wiki/1
+
+§ Gabe Kangas (Fediverse, Who is Who)
+
+⸺ by Charles Iliya Krempeaux
+
+**Gabe Kangas**, who goes by the nickname **@gabek**, is a notable person on the Fediverse because —
+
+• [[fediverse/software/owncast]] — Fediverse software focused on live video streaming
+
+§§ Fediverse IDs
+
+**Gabe Kangas**'s [[fediverse-id]]'s are:
+
+• ``@gabek@social.gabekangas.com``
