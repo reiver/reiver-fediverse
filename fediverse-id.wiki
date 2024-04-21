@@ -48,4 +48,4 @@ Here is an example:
 
 §§ See Also
 
-• [[fediverse/id/syntax]]
+• [[fediverse-id-syntax]]
