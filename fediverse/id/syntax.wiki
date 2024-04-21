@@ -119,16 +119,16 @@ Here is an example of transforming a **Fediverse ID** into an [[acct-uri]]:
 
 A client would then make a request to:
 
-	https://example.com/.well-known/host-meta
+	https:/((/))example.com/.well-known/host-meta
 
 To discover what the (template) URL for [[webfinger]] is.
 And then, for example, if it is at:
 
-	https://example.com/.well-known/webfinger?resource={uri}
+	https:/((/))example.com/.well-known/webfinger?resource={uri}
 
 Then make a request to:
 
-	https://example.com/.well-known/webfinger?resource=acct:joeblow@example.com
+	https:/((/))example.com/.well-known/webfinger?resource=acct:joeblow@example.com
 
 This [[webfinger]] implementation //could// accept whatever it wants.
 It doesn't have to restrict itself to what is specified by the IETF RFC-7565 (The 'acct' URI Scheme) specification.
