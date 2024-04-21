@@ -17,7 +17,7 @@ wiki/1
 
 §§ Fediverse IDs
 
-**Massoud Seifi**'s [[fediverse/id]'s are:
+**Massoud Seifi**'s [[fediverse-id]'s are:
 
 • ``@accesstoken@mastodon.social``
 • ``@massoud@onepicaday.com``

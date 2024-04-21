@@ -17,7 +17,7 @@ wiki/1
 
 §§ Fediverse IDs
 
-**Daniel Supernault**'s [[fediverse/id]]'s are:
+**Daniel Supernault**'s [[fediverse-id]]'s are:
 
 • @dansup@mastodon.social
 • @dansup@pixelfed.social

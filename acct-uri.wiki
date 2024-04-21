@@ -8,10 +8,10 @@ An **acct URI** looks like this:
 
 	acct:joeblow@example.com
 
-Typically an **acct URI** is used to turn an **e-mail address** or [[fediverse/id]] into a URL / URI.
+Typically an **acct URI** is used to turn an **e-mail address** or a [[fediverse-id]] into a URL / URI.
 (There are reasons why one might want to turn a pointer or identifier that isn' a URL / URI into a URL / URI.)
 
-For example, this [[fediverse/id]]:
+For example, this [[fediverse-id]]:
 
 	@reiver@reiver.link
 
@@ -52,7 +52,7 @@ For example —
 • jandoe@something.example
 • actor@host
 
-[[fediverse/id]]s look very similar to e-mail addresses.
+[[fediverse-id]]s look very similar to e-mail addresses.
 They just have a U+0040 at-sign ("@") at the beginning of them:
 
 • @joeblow@example.com
@@ -76,7 +76,7 @@ And really, they don't have to be aware of them!
 
 But behind the scenes, **acct URI**s are used by [[fediverse/software]].
 
-Behind the scenes, a [[fediverse/id]] is turned into a **acct URI**, and then that **acct URI** is used to in a request to [[webfinger]] .
+Behind the scenes, a [[fediverse-id]] is turned into a **acct URI**, and then that **acct URI** is used to in a request to [[webfinger]] .
 
 If you are a **programmer** / **software engineer** / **software developer** / etc, then you may need to be aware of **acct URI**s, and have some level of understanding of them.
 

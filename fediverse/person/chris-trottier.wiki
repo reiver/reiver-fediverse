@@ -24,12 +24,12 @@ wiki/1
 
 §§ Fediverse IDs
 
-**Chris Trottier**'s [[fediverse/id]]'s are:
+**Chris Trottier**'s [[fediverse-id]]'s are:
 
 • ``@atomicpoet@atomicpoet.org``
 • ``@atomicpoet@peerverse.space``
 
-**Chris Trottier**'s old and no longer used [[fediverse/id]]'s are:
+**Chris Trottier**'s old and no longer used [[fediverse-id]]'s are:
 
 • ``@atomicpoet@firefish.city``
 • ``@atomicpoet@mastodon.social``

@@ -24,7 +24,7 @@ wiki/1
 
 §§ Fediverse IDs
 
-**Charles Iliya Krempeaux**'s [[fediverse/id]]'s are:
+**Charles Iliya Krempeaux**'s [[fediverse-id]]'s are:
 
 • @charles@spacehost.team
 • @reiver@firefish.lol
