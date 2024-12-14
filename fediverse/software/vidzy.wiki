@@ -1,0 +1,29 @@
+wiki/1
+
+§ Vidzy (Fediverse Software)
+
+⸺ by Charles Iliya Krempeaux
+
+**Vidzy** is [[fediverse/software]] focused on **short-form video**, that started its life as a fork of [[fediverse/software/pleroma]].
+
+Being software for a micro-blogging social-media network, **Vidzy** is similar to:
+
+• [[fediverse/software/friendica]],
+• [[fediverse/software/gnu-social]],
+• [[fediverse/software/gotosocial]],
+• [[fediverse/software/loops]],
+• [[fediverse/software/mastodon]],
+• [[fediverse/software/misskey]],
+• [[fediverse/software/pleroma]],
+• [[fediverse/software/pixelfed]],
+• and others.
+
+§§ Links
+
+The **Vidzy** home web-site is at:
+
+• ((https://vidzy.codeberg.page/))
+
+The **Vidzy** [[source-code]] is at:
+
+• ((https://github.com/vidzy-social/vidzy))
