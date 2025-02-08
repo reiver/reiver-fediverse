@@ -76,8 +76,6 @@ This is a list of most the **Fediverse software** as of 2023.
 
 §§ P
 
-
-
 • [[fediverse/software/peertube]]
 • [[fediverse/software/piefed]]
 • [[fediverse/software/pixelfed]]
@@ -85,6 +83,7 @@ This is a list of most the **Fediverse software** as of 2023.
 • [[fediverse/software/plume]]
 • [[fediverse/software/postfreely]]
 • [[fediverse/software/postmarks]]
+• [[fediverse/software/protogo]]
 
 §§ Q
 
