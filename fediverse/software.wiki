@@ -69,6 +69,7 @@ This is a list of most the **Fediverse software** as of 2023.
 §§ N
 
 • [[fediverse/software/nextcloud]]
+• [[fediverse/software/nodebb]]
 
 §§ O
 
